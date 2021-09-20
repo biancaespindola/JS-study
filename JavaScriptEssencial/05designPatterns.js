@@ -67,6 +67,8 @@
 
 /**
  * Factory:
+ * Todas as funçõez que retornam um objeto, sem a necessidaded de chamá-las
+ * com o new, são consideradas funç~ies Factory(de fábrica mesmo)
  * > podem ter propriedades estaticas ou ser definido atributos
  */
 
@@ -85,3 +87,9 @@ console.log(defaultUser);
 //Factory
 const user = FakeUser({name: 'Custom name', lastName: 'Custom lastName', age: 'Custom age'});
 console.log(user);
+
+/**
+ * Sigleton:
+ * O objetivo desse pattern é criar uma única instância de uma função construtora
+ * e retorná-la toda vez em que for necessário utilizá-la.
+*/
