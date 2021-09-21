@@ -9,3 +9,8 @@ confirm('Deseja realmente cancelar?');
 
 prompt("Digite o seu nome:");
 //recebe o que o usuario digitar na caixa
+
+//exercicio
+let num1 = Number(prompt("Digite um numero:"));
+let num2 = Number(prompt("Digite outro numero:"));
+alert(`o resultado da soma é: ${num1 + num2}`);
